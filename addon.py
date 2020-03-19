@@ -2,7 +2,7 @@ import subprocess
 import xbmc
 import xbmcaddon
 import xbmcgui
- 
+
 addon       = xbmcaddon.Addon()
 addonname   = addon.getAddonInfo('name')
 
