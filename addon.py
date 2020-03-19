@@ -1,3 +1,4 @@
+import os
 import subprocess
 import xbmc
 import xbmcaddon
