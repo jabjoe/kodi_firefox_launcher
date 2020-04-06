@@ -11,4 +11,4 @@ ok = xbmcgui.Dialog().ok(addonname, "Start Firefox?")
 if ok:
     xbmc.log("Starting Firefox", xbmc.LOGNOTICE)
     devnull = open(os.devnull, 'wb')
-    subprocess.Popen(['/usr/bin/firefox'], stdout=devnull, stderr=devnull)
+    subprocess.Popen(['/usr/bin/firefox', '--kiosk'], stdout=devnull, stderr=devnull)
