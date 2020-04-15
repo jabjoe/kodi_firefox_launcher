@@ -1,0 +1,12 @@
+Quick and dirty plugin to run Firefox fullscreen from Kodi.
+
+This is so the author can use Nextcloud Talk on the TV.
+
+
+To build it just type:
+
+    
+    make
+    
+
+Then copy over and install script.launch.firefox.zip
